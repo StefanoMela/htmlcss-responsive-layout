@@ -84,22 +84,29 @@ section {
     background-color: #0084FD;
 }
 
-.navbar span {
-    font-size: 2.5rem;
+.burger {
+    font-size: 2rem;
 }
-
 
 /* CARD-SECTION */
 
 
-.card__col--double {
+.card {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.5rem;
     align-items: center;
+    justify-content: space-evenly;
     background-color: #B5DDFF;
-    padding: 3rem 2rem 0 2rem;
+    padding: 0rem 2rem;
     border-radius: 20px;
+    margin-bottom: 2.5rem;
+}
+
+.card__title__demo {
+    font-size: 2rem;
+    color: #0084FD;
+    margin-top: 3rem;
 }
 
 .card__title {
@@ -111,6 +118,7 @@ section {
     font-weight: bold;
     color: #90AFCB;
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 .card__btn {
@@ -125,6 +133,12 @@ section {
     background-color: #B5DDFF;
 }
 
+
+.card__icon {
+    font-size: 3rem;
+    padding-top: 2rem;
+    color: #0084FD;
+}
 
 
 /*
