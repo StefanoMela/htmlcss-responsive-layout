@@ -54,10 +54,6 @@ ul {
     padding: 1rem 2rem;
 }
 
-section {
-    padding: 3rem 0;
-}
-
 /*
 ******************
     SPECIFIC    
@@ -90,28 +86,20 @@ section {
 
 /* CARD-SECTION */
 
-
 .card {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
     align-items: center;
-    justify-content: space-evenly;
     background-color: #B5DDFF;
     padding: 0rem 2rem;
     border-radius: 20px;
-    margin-bottom: 2.5rem;
-}
-
-.card__title__demo {
-    font-size: 2rem;
-    color: #0084FD;
-    margin-top: 3rem;
+    margin: 2.5rem 0;
 }
 
 .card__title {
     font-size: 2rem;
     color: #0084FD;
+    margin: 2rem 0;
 }
 
 .card__paragraph {
@@ -127,12 +115,9 @@ section {
     padding: 1rem 4rem;
     border: none;
     border-radius: 20px;
+    margin-bottom: 2rem;
+    font-size: 1rem;
 }
-
-.card__img {
-    background-color: #B5DDFF;
-}
-
 
 .card__icon {
     font-size: 3rem;
@@ -146,3 +131,33 @@ section {
     MEDIA QUERIES    
 ******************
 */
+
+
+@media screen and (min-width:577px) {
+
+    .card__row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: -1rem -2rem;
+    }
+
+    .card {
+        margin: 1rem 0;
+        padding: 0;
+    }
+
+    .card__title {
+        font-size: 1.5rem;
+    }
+
+    .col {
+        display: flex;
+        width: calc((100% - 2rem) / 3);
+    }
+
+
+    .col.xl {
+        width: calc((100% - 2rem) / 3 * 2);
+    }
+}
