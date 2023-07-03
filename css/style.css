@@ -127,11 +127,60 @@ ul {
 
 
 /*
+************************
+    PLANNING SECTION    
+************************
+*/
+
+.planning-section {
+    background-color: #9792E4;
+    color: white;
+    text-align: center;
+}
+
+.planning-section img {
+    max-width: 80%;
+}
+
+.planning__title {
+    margin: 2rem 0;
+}
+
+.planning__card {
+    margin-top: 2rem;
+    background-color: #ffff;
+    border-radius: 30px;
+    color: black;
+    padding: 0 2rem;
+}
+
+.planning__card__title {
+
+    margin-top: 2rem;
+}
+
+.planning__card p {
+    font-style: italic;
+    margin: 2rem 0;
+}
+
+
+.planning__arrow {
+
+    background-color: #9792E4;
+    padding: 1.5rem;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+/*
 ******************
     MEDIA QUERIES    
 ******************
 */
 
+
+/* TABLET */
 
 @media screen and (min-width:577px) {
 
