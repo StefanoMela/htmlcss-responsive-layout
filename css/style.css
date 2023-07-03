@@ -1,0 +1,135 @@
+/* 
+
+COLORS 
+
+av, icons, buttons : #0084FD ;
+
+primary color: #B5DDFF ;
+
+secondary color: #9792E4 ;
+
+f0oter color: #333333 ;
+
+freeColor: #FDC15F; 
+
+*/
+
+
+/*
+***************
+    RESET
+***************
+*/
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+/*
+******************
+    GENERERICS    
+******************
+*/
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+}
+
+section {
+    padding: 3rem 0;
+}
+
+/*
+******************
+    SPECIFIC    
+******************
+*/
+
+
+/* DEBUG */
+
+.debug {
+    border: 1px solid red;
+    min-height: 300px;
+}
+
+
+/* HEADER */
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #0084FD;
+}
+
+.navbar span {
+    font-size: 2.5rem;
+}
+
+
+/* CARD-SECTION */
+
+
+.card__col--double {
+    display: flex;
+    flex-direction:  column;
+    gap: 2rem;
+    align-items: center;
+    background-color: #B5DDFF;
+    padding: 3rem 2rem 0 2rem;
+    border-radius: 20px;
+}
+
+.card__title {
+    font-size: 2rem;
+    color: #0084FD;
+}
+
+.card__paragraph {
+    font-weight: bold;
+    color: #90AFCB;
+    text-align: center;
+}
+
+.card__btn {
+    background-color: #0084FD;
+    color: white;
+    padding: 1rem 4rem;
+    border: none;
+    border-radius: 20px;
+}
+
+.card__img {
+    background-color: #B5DDFF;
+}
+
+
+
+
+/*
+******************
+    MEDIA QUERIES    
+******************
+*/
