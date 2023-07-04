@@ -322,6 +322,80 @@ section:nth-child(even) {
 
 /*
 ******************
+    ABOUT US    
+******************
+*/
+
+.about__us__col {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.about__us__title {
+
+    color: #9792E4;
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+.about__us__paragraph {
+
+    font-size: 1.2rem;
+    word-spacing: 3px;
+    margin-bottom: 2rem;
+}
+
+.about__us__media {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+
+.about__us__img {
+    width: 200px;
+    height: 200px;
+    margin: 2rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.about__us__media::after {
+
+    content: open-quote;
+    font-family: serif;
+    font-weight: 900;
+    font-size: 6rem;
+    color: #9792E4;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    left: 0;
+}
+
+.about__us__media .about__us__title {
+
+    text-align: left;
+}
+
+.about__us__button {
+
+    background-color: #9792E4;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 20px;
+}
+
+.fa-linkedin {
+
+    margin: 0 .5rem;
+}
+
+/*
+******************
     MEDIA QUERIES    
 ******************
 */
@@ -381,6 +455,47 @@ section:nth-child(even) {
         width: calc((100% / 2) - 4rem);
         margin: 2rem;
         font-size: larger;
+    }
+
+
+    /* ABOUT US */
+
+    .about__us__col {
+
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+
+    .about__us__text {
+
+        width: 60%;
+    }
+
+    .about__us__text .about__us__title {
+
+        font-size: 3rem;
+        text-align: left;
+    }
+
+
+    .about__us__text .about__us__paragraph {
+
+        text-align: left;
+        font-weight: 100;
+        line-height: 2.5rem;
+    }
+
+    .about__us__media {
+
+        width: 40%;
+    }
+
+    .about__us__media::after {
+
+        left: auto;
+
     }
 
 
@@ -445,6 +560,13 @@ section:nth-child(even) {
         width: calc((100% / 3) - 4rem);
         margin: 2rem;
         max-height: fit-content;
+    }
+
+
+    .about__us__media::after {
+
+        left: 0;
+
     }
 
 }
