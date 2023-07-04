@@ -55,13 +55,6 @@ ul {
     padding: 1rem 2rem;
 }
 
-
-section {
-
-    margin: 1.5rem 0;
-}
-
-
 section:nth-child(odd) {
     background-color: white;
 }
@@ -303,7 +296,7 @@ section:nth-child(even) {
     font-weight: bold;
 }
 
-.benefit__card__paragraph{
+.benefit__card__paragraph {
 
     text-align: left;
 }
@@ -445,6 +438,30 @@ section:nth-child(even) {
     font-size: 13px;
 }
 
+
+
+/*
+******************
+    FOOTER    
+******************
+*/
+
+
+.footer-section {
+    background-color: #333333;
+    color: white;
+    padding: 4rem 0;
+}
+
+.footer-section a {
+
+    color: #9792E4;
+}
+
+
+
+
+
 /*
 ******************
     MEDIA QUERIES    
@@ -456,7 +473,7 @@ section:nth-child(even) {
 /* TABLET */
 
 @media screen and (min-width: 577px) {
-    
+
     /* CARD SECTION */
 
     .card__row {
