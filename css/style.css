@@ -163,7 +163,7 @@ section:nth-child(even) {
 .planning__card {
     margin-top: 2rem;
     background-color: #ffff;
-    border-radius: 30px;
+    border-radius: 20px;
     color: black;
     padding: 0 2rem;
 }
@@ -224,7 +224,7 @@ section:nth-child(even) {
     background-color: #9792E4;
     padding: 1rem 6rem;
     color: white;
-    border-radius: 30px;
+    border-radius: 20px;
     margin: 2rem 0;
 }
 
@@ -239,13 +239,13 @@ section:nth-child(even) {
     padding-bottom: 2rem;
 }
 
-.testimonial__quote::before {
+.testimonial__quote blockquote::before {
     content: open-quote;
     font-size: 4rem;
     font-weight: bold;
 }
 
-.testimonial__quote::after {
+.testimonial__quote blockquote::after {
     content: close-quote;
     font-size: 4rem;
     font-weight: bold;
@@ -268,9 +268,52 @@ section:nth-child(even) {
 */
 
 
+.benefit__title {
+    font-size: 2rem;
+    margin: 2rem;
+}
+
 .benefit__row {
 
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.benefit__card {
+
+    background-color: #fff;
+    color: #9792E4;
+    border-radius: 20px;
+    margin: 2rem 0;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.benefit__number {
+
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.benefit__card__paragraph{
+
+    text-align: left;
+}
+
+.benefit__button {
+
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 20px;
+    background-color: #9792E4;
+    color: white;
+    font-weight: bold;
 }
 
 
@@ -339,6 +382,14 @@ section:nth-child(even) {
     }
 
 
+    .benefit__col {
+
+        width: calc((100% / 2) - 4rem);
+        margin: 2rem;
+        font-size: larger;
+    }
+
+
 }
 
 
@@ -395,5 +446,11 @@ section:nth-child(even) {
     }
 
 
-    /* TESTIMONIALS */
+    .benefit__col {
+
+        width: calc((100% / 3) - 4rem);
+        margin: 2rem;
+        max-height: fit-content;
+    }
+
 }
