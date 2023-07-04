@@ -229,9 +229,12 @@ section:nth-child(even) {
 }
 
 .testimonial__card img {
-
+    max-width: none;
+    width: 200px;
+    height: 200px;
+    margin: 2rem;
+    object-fit: cover;
     border-radius: 50%;
-    margin: 2rem 0;
 }
 
 .testimonial__quote {
@@ -366,19 +369,10 @@ section:nth-child(even) {
         padding: 1rem;
     }
 
-    .testimonial__img {
-        max-width: none;
-        width: 200px;
-        height: 200px;
-        margin: 2rem;
-        object-fit: cover;
-
-    }
-
     .testimonial__quote,
     .testimonial__name {
 
-        font-size: 1rem;
+        font-size: 23px;
     }
 
 
