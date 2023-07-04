@@ -199,14 +199,13 @@ section:nth-child(even) {
 
     font-weight: 100;
     text-transform: uppercase;
-    margin-bottom: 2rem;
 }
 
 .testimonial__title {
 
     color: #9792E4;
     font-size: 2rem;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
 }
 
 .testimonial__paragraph {
@@ -392,6 +391,58 @@ section:nth-child(even) {
 .fa-linkedin {
 
     margin: 0 .5rem;
+}
+
+/*
+******************
+    GET STARTED    
+******************
+*/
+
+
+.get__started__col {
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: justify;
+}
+
+.simple__title {
+
+    font-size: 2rem;
+}
+
+.free__title {
+
+    font-size: 3rem;
+    color: #FDC15F;
+}
+
+.get__started__paragraph {
+
+    line-height: 2.2rem;
+}
+
+
+.get__started__button {
+
+    color: #9792E4;
+    background-color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 1rem 2rem;
+    width: 40%;
+    align-self: center;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+
+.get__started__small__txt {
+
+    font-weight: 100;
+    font-size: 13px;
 }
 
 /*
