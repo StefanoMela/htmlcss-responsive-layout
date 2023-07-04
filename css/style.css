@@ -267,6 +267,11 @@ section {
 
 @media screen and (min-width:577px) {
 
+
+    img {
+        max-width: none;
+    }
+
     /* CARD SECTION */
 
     .card__row {
@@ -301,18 +306,25 @@ section {
     .testimonial__card {
         display: flex;
         align-items: center;
-        padding: 1rem 0;
+        padding: 1rem;
     }
 
     .testimonial__img {
         height: 150px;
         width: 150px;
+        margin: 2rem;
+        object-fit: cover;
 
     }
 
     .testimonial__quote {
 
-        font-size: 1.2rem;
+        font-size: 1rem;;
+    }
+
+    .testimonial__name {
+
+        font-size: 1rem;
     }
 
 
