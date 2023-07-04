@@ -93,6 +93,11 @@ section:nth-child(even) {
     font-size: 2rem;
 }
 
+.header__links {
+
+    display: none;
+}
+
 /*
 ************************
     CARD SECTION    
@@ -575,6 +580,44 @@ section:nth-child(even) {
 
 @media screen and (min-width: 992px) {
 
+
+    /* HEADER */
+
+
+.burger {
+    display: none;
+}
+
+.header__links {
+
+    display: inline-block;
+}
+
+.header__link__item {
+
+    padding: 0 1rem;
+    display: inline-block;
+}
+
+.header__link__item a {
+
+    color: white;
+    text-decoration: none;
+}
+
+.header__link__item a:last-child {
+
+    color: #333333;
+}
+
+.header__link__item:last-child {
+
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: .5rem 1rem;
+
+}
 
     /* CARDS */
 
