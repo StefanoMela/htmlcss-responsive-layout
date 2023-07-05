@@ -565,12 +565,6 @@ section:nth-child(even) {
         width: 40%;
     }
 
-    .about__us__media::after {
-
-        left: auto;
-
-    }
-
 
 }
 
